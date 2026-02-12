@@ -24,6 +24,7 @@ h1{
     display: flex;
     justify-content: center;
     border: 2px solid black;
+    border-radius: 10px;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
@@ -36,15 +37,19 @@ h1{
     font-size: 50px;
     font-style: italic;
 }
+
 .container form input{
     width: 450px;
     height: 40px;
     border-radius: 10px;
-    margin: 20px;
 
+}.container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.container .btn{
-    margin: 0 auto;
+.container form button{
     padding: 15px 30px;
     border-radius: 10px;
     border: none;
@@ -75,4 +80,7 @@ table tr th button{
     padding: 15px 20px;
     cursor: pointer;
     border-radius: 10px;
+}
+tr >td{
+    border: 1px solid black;
 }
