@@ -20,3 +20,29 @@ h1{
     height: 370px;
     width: 410px;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+.container h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-size: 50px;
+    font-style: italic;
+}
+.container form input{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.container .btn{
+    margin: 0 auto;
+}
