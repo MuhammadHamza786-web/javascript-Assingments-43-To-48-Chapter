@@ -16,3 +16,12 @@ function mobile3_Image()
 // 3. Display 10 student records in table and each row should contain a delete
 // button. If you click on a button to delete a record, entire row should be
 // deleted. 
+
+function getData(){
+    let userName  =document.getElementById("userName").value;
+    let userRollNumber=document.getElementById("rollNumber").value;
+    document.getElementById("tableData").innerHTML=`${userName} ${userRollNumber}`
+}
+
+function printdata(){
+}
