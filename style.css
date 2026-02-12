@@ -1,12 +1,22 @@
-.image-container{
-display: flex;
-align-items: center;
-justify-content: center;
+h1{
+    display: flex;
+    justify-content: center;
+}
+.multimobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.multimobile img{
+    height: 280px;
+    width: 300px;
 }
 
-
-
-.image img{
-    height: 350px;
-    width: 400px;
+.multimobile #mobile1 {
+    width: 350px;
+    height: 300px;
+}
+.multimobile #mobile2{
+    height: 370px;
+    width: 410px;
 }
