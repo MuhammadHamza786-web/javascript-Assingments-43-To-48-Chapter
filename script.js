@@ -24,10 +24,7 @@ function getData(){
         alert("Please Enter Your Name")
 
     }
-    //  if(userRollNumber ===""){
-    //     alert("Please Enter Your Roll Number")
-
-    // }
+    
     let studentobj={
         name:userName,
         RollNumber:userRollNumber
@@ -65,6 +62,17 @@ function getData(){
 
 //         4. Display an image in browser. Change the picture on mouseover and set the
 // first picture on mouseout.
+
+function imageChange(type){
+    if(type==="new"){
+        document.getElementById("myImg").src="Phone Images/images.jpg"
+        
+    }else{
+        document.getElementById("myImg").src="Phone Images/beautiful-lake-mountains_395237-44.avif"
+    }
+}
+
+
 
 // 5. Show a counter in browser. Counter should increase on click on increase
 // button and decrease on click on decrease button. And show updated counter

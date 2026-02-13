@@ -84,3 +84,11 @@ table tr th button{
 tr >td{
     border: 1px solid black;
 }
+.overImage img{
+    margin: 40px 0px;
+    border-radius: 10px;
+}
+.overImage img{
+    width: 300px;
+    height: 400px;
+}
